@@ -24,7 +24,7 @@ class AboutArrays < EdgeCase::Koan
   def test_accessing_array_elements
     array = [:peanut, :butter, :and, :jelly]
 
-    assert_equal :butter, array[0]
+    assert_equal :peanut, array[0]
     assert_equal :peanut, array.first
     assert_equal :jelly, array[3]
     assert_equal :jelly, array.last
